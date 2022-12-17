@@ -1,0 +1,125 @@
+body{
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    background-image: url("./images/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.part1{
+    height: 100vh;
+    background-image: url("./images/wrap.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
+}
+/* ============ */
+.part2{
+    min-height: 400px;
+    background-color: white;
+    padding: 0 40px 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.part2_img{
+    width: 420px;
+}
+.part2_matn{
+    max-width: 50%;
+}
+/* ============ */
+.part3{
+    min-height: 400px;
+    height: 980px;
+    background-image: url("./images/wrap2.png") ,url('./images/wrap.png'), url("./images/pattern_opacity.png");
+    background-repeat: no-repeat ,no-repeat , repeat;
+    background-size: 100% auto ,100% auto ,420px;
+    background-position: top , bottom;
+    padding: 130px 40px 50px;
+}
+.part3 h1{
+    padding-right: 120px;
+}
+.part3_list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.part3_img{
+    min-width: 380px;
+    height: 290px;
+    margin: 20px;
+}
+
+/* ================== */
+.part4{
+    min-height: 400px;
+    padding: 0px 40px 50px;
+    background-color: white;
+    
+    background-size: 100px;
+    column-count: 3;
+    column-gap: 40px;
+}
+.part4_img{
+    width: 100%;
+    float: right;
+}
+/* ================== */
+
+.part5{
+    background-color: white;
+    padding: 0px 40px 50px;
+}
+.part5_list{
+    display: flex;
+    overflow-x: scroll;
+    padding: 20px;
+    background-color: white;
+}
+.part5_img{
+    margin:10px;
+    width: 200px;
+}
+/* ============ */
+
+.part6{
+    background-image: url(./images/wrap2.png);
+    background-size: 100% auto;
+    background-color: rgb(0 0 0 / 47%);
+    background-repeat: no-repeat;
+    min-height: 583px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* ============ */
+
+.part7{
+    background-image: url(./images/key_sol.png),url(./images/download.png);
+    background-size: 100px 50px,430px auto;
+    background-repeat: repeat-x ,no-repeat;
+    background-position: 0 32px,bottom left;
+    background-color: white;
+    column-count: 3;
+    column-gap: 40px;
+    padding: 138px 40px 173px;
+}
+.part7 h3{
+    column-span: all;
+}
+
+
+
+
+
+
+
+/* background-image: url(./images/key_sol.png);
+    background-position: bottom;
+    background-repeat: repeat-x; */
